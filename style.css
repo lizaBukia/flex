@@ -1,0 +1,220 @@
+
+header{
+    margin-top: 83px;
+    margin-right: 321px;
+}
+ li{
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3D37F1;
+    font-family: 'lato';
+   
+
+    
+}
+.d-flex{
+    display: flex;
+    gap: 38px;
+    justify-content: space-between;
+}
+.logo{
+    width: 193px;
+    height: 129px;
+    margin-left: 136px;
+}
+.slogan{
+    margin-left: 126px;
+    padding-top: 280px;
+   margin-bottom: 256px;
+}
+.slogan h3{
+    font-size: 78px;
+    color: #534D4D;
+    width: 602px;
+    height: 188px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+}
+.slogan p{
+    font-size: 22px;
+    width: 602px;
+    height: 188px;
+    color: #534D4D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 42px;
+}
+.banner{
+   
+    padding-left: 319px;
+    padding-right:80px ;
+}
+
+.d-flex-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+
+button{
+    width: 263px;
+    border-radius: 38px;
+    background-color: #3d37f1;
+    padding: 20px 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+  
+}
+section{
+    width: 100% ;
+}
+.card-box{
+    width: 100%;
+    background-color: #FBFCFD;
+    padding-top: 78px;
+    margin-bottom: 163px;
+}
+.card-heading span{
+color: #3D37F1;
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+.card-heading h2{
+    font-size: 40px;
+    color: #5A5454;
+    font-family: 'Lato', sans-serif;
+font-weight: 400;
+text-transform: capitalize;
+
+
+}
+.card-heading p{
+    width: 712px;
+    height: 63px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #747474;
+
+}
+.card-heading{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 67px;
+  font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+.service-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .service-cards-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 29px;
+  }
+  .service-cards-row .card {
+    width: 370px;
+    height: 450px;
+    padding: 88px 35px 47px;
+    background-image: linear-gradient(#fbba77, #dfa871);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 57px;
+  }
+  
+  .card .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card .card-text h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+  }
+  .card .card-text p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    width: 300px;
+    margin-top: 13px;
+    margin-bottom: 37px;
+    text-align: center;
+    line-height: 19px;
+  }
+  
+  .card .card-text a {
+    width: 135px;
+    padding: 14px 29px;
+    background-color: transparent;
+    border-radius: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    transition: all .3s ease-in-out;
+     &:hover {
+        background-color: #fff;
+      color: #4b647e;
+      }
+  
+    
+  }
+  .card-2 {
+    background-image: linear-gradient(#41EAE3, #2293B7) !important;
+  
+  }
+  .card-3{
+    background-image: linear-gradient(#69529F, #463864) !important;
+
+  }
+  .card-4{
+    background-image: linear-gradient(#4386D2, #0962C5) !important;
+
+  }
+  .card-5{
+    background-image: linear-gradient(#A5A2F6, #564FD6) !important;
+
+  }
+ .card-6{
+    background-image: linear-gradient(#FF8088, #984141) !important;
+
+    
+ }
